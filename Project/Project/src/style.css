@@ -20,6 +20,7 @@ nav {
   border-radius: 5px; /* Optional: rounded corners */
   margin: 0px;
   padding: 0px;
+  min-width: 800px;
   
 }
 
@@ -115,6 +116,48 @@ nav a:hover {
     }
 }
 
-.Login .Google{
-  margin-bottom: 20px;
+.card:hover {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}
+.contact{
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  text-align: center;
+}
+.discription{
+
+  font-size: 18px;
+}
+.About{
+  padding: 10px;
+}
+.developers{
+  padding-top: 20px;
+}
+.hancy_haru{
+  border-radius: 200px;
+}
+.role
+{
+  padding: 10px;
+}
+.developers{
+  display: flex;
+  gap: 10px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .developers{
+    display: flex;
+    gap: 40px;
+    text-align: center;
+    flex-direction: column;
+    min-width: 800px;
+  }
+  .head{
+    min-width: 800px;
+  }
+
 }
